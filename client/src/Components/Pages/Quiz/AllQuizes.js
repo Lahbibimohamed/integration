@@ -21,6 +21,8 @@ function AllQuizes() {
   }, []);
   return (
     <div>
+      <h1>All quizes</h1>
+      <hr></hr>
       <div className="main">
         {allquizes.map((quiz) => (
           <SingleQuiz key={quiz._id} quiz={quiz} />

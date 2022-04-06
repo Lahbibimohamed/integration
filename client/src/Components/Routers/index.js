@@ -48,7 +48,7 @@ const RRR = () => {
           <Route path="/Category/create" element={<CreatCategory/> } />
           <Route path="/Category/:id" element={<BrowseCategory/> } />
           <Route path="/category/new/:id" element={<ShowCategory />} />
-          <Route path="/forum/new/:id" element={<ShowForum />} />
+          <Route path="/forum/new/:quizId" element={<ShowForum />} />
 
           <Route path="/forum/create/:id" element={<CreateForum />} />
           <Route path="/forum" element={<BrowseForum/>} />

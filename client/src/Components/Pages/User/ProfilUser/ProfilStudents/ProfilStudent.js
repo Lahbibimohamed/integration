@@ -147,7 +147,7 @@ const ProfilStudent = () => {
                     Active Courses
                   </button>
 
-                  <button
+                  <button hidden={userData.role==="student"}
                     class="nav-link"
                     id="nav-quiz-tab"
                     data-bs-toggle="tab"
